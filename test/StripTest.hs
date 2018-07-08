@@ -1,6 +1,10 @@
+import Test.Tasty
 import Test.Tasty.HUnit
 
 import Data.String
+
+-- run tests in terminal: stack test
+main = defaultMain tests
 
 tests :: TestTree
 tests = testGroup "Tests" [unitTests]
