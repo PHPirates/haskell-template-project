@@ -6,11 +6,11 @@ Uses:
 - Haskell_, a functional programming language
 - Stack_, a build tool which includes dependency and test management
 - Cabal_, a build system used by Stack
-- Intellij-Haskell_, which allows to run Haskell in IntelliJ
 - Tasty_, a test framework
 - HUnit_, a test runner which can be configured by Tasty
 - Travis_, a continuous integration service which can build Haskell projects which use Stack
 - Haddock_, a tool for generating documentation
+- Intellij-Haskell_, which allows to run Haskell and all of the above in IntelliJ. Not required to run this template project.
 
 Instructions to install Haskell and the IntelliJ Haskell plugin at StackOverflow_.
 The test framework Tasty_ is used, because it seems more recently maintained than 'test-framework'. Another option could have been Hspec. Tasty includes HUnit, made by Hspec.
