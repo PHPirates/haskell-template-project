@@ -2,8 +2,8 @@ name:                haskell-template-project
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/PHPirates/haskell-template-project
-license:             MIT
+homepage:            https://github.com/PHPirates/haskell-template-project#readme
+license:             ISC
 license-file:        LICENSE
 author:              Thomas Schouten
 maintainer:          k3l1n6i2y5k7d1e3@deltadak.slack.com
@@ -31,7 +31,7 @@ executable haskell-template-project
 test-suite haskell-template-project-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
-  main-is:             StripTest.hs
+  main-is:             Test.hs
   build-depends:       base
                      , haskell-template-project
                      , tasty-hunit
