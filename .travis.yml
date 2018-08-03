@@ -35,4 +35,4 @@ script:
 # Upload to coveralls using Stack HPC Coveralls (SHC)
 after_success:
 - travis_retry curl -L https://github.com/rubik/stack-hpc-coveralls/releases/download/v0.0.4.0/shc-linux-x64-8.0.1.tar.bz2 | tar -xj
-- ./shc solarduino-haskell solarduino-haskell-test
+- ./shc haskell-template-project haskell-template-project-test
