@@ -7,7 +7,7 @@ license:             ISC
 license-file:        LICENSE
 author:              Thomas Schouten
 maintainer:          k3l1n6i2y5k7d1e3@deltadak.slack.com
-copyright:           MIT
+copyright:           ISC
 category:            Template
 build-type:          Simple
 extra-source-files:  readme.rst
