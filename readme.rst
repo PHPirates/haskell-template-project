@@ -21,7 +21,8 @@ The test framework Tasty_ is used, because it seems more recently maintained tha
 
     "Tasty lets you combine your unit tests, golden tests, QuickCheck/SmallCheck properties, and any other types of tests into a single test suite."
 
--- Updating dependencies
+Updating dependencies
+---------------------
 
 Check Stackage_ to see what the latest resolver is, and change that in `stack.yml`.
 
